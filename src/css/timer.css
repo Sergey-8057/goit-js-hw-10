@@ -1,0 +1,102 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #2e2f42;
+  background-color: #fff;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+}
+
+.container-timer {
+  padding: 36px 156px;
+}
+
+.input-timer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding: 10px 16px 6px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  margin-right: 8px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.notactiv-input-timer {
+  color: #808080;
+  border-color: #808080;
+  pointer-events: none;
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
+
+.input-timer:disabled {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+}
+
+.input-timer:hover {
+  border-color: #000000;
+}
+
+.input-timer:focus {
+  border-color: #4e75ff;
+  outline: none;
+}
+
+.input-timer:active {
+  border-color: #4e75ff;
+}
+
+.btn-timer {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #989898;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  border: none;
+  pointer-events: none;
+  background: #cfcfcf;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.isactiv-btn-timer {
+  pointer-events: auto;
+  color: #ffffff;
+  background: #4e75ff;
+}
+
+.isactiv-btn-timer:hover {
+  background: #6c8cff;
+}
+
+.timer {
+  display: flex;
+  gap: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.value {
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+}
+
+.label {
+}

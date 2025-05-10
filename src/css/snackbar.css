@@ -1,0 +1,75 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #2e2f42;
+  background-color: #fff;
+}
+
+.label-delay {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  letter-spacing: 0.04em;
+  padding-top: 36px;
+}
+
+.input-delay {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-delay:hover {
+  border-color: #000000;
+}
+
+.input-delay:active,
+.input-delay:focus {
+  border-color: #4e75ff;
+  outline: none;
+}
+
+.fieldset-state {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  margin-bottom: 24px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fieldset-state:hover,
+.fieldset-state:focus {
+  border-color: #000000;
+}
+
+.fieldset-legend {
+  text-align: left;
+  letter-spacing: 0.04em;
+}
+
+.btn-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-submit:hover {
+  background: #6c8cff;
+}
